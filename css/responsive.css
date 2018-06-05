@@ -1,0 +1,28 @@
+@media screen and (max-width:460px){
+    h1, h2 {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width:925px){
+    aside {
+        width: 100%;
+        order: 1;
+    }
+    article {
+        width: 100%;
+    }
+    .header-height {
+        height: 0px;
+    }
+    .color {
+        display: inline-block;
+        margin-right: 30px;
+    }
+}
+@media screen and (min-width:1200px){
+    main {
+        width: 1200px;
+        margin: auto;
+    }
+}
